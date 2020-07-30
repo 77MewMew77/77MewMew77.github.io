@@ -205,8 +205,8 @@
             </div>
         </section>
         <!-- Contact Section-->
-        <section class="page-section" id="contact">
-            <div class="container">
+        <section class="page-section">
+            <div class="container" id="contact">
                 <!-- Contact Section Heading-->
                 <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contact Me</h2>
                 <!-- Icon Divider-->
@@ -216,16 +216,15 @@
                     <div class="divider-custom-line"></div>
                 </div>
                 <!-- Contact Section Form-->
-                <div id="contact">
-                    <div id="contact-form">
-                        <form action="https://formspree.io/mpzyqdng" method="POST">
-                            <input type="hidden" name="_subject" value="Contact request from personal website" />
-                            <input type="email" name="_replyto" placeholder="Your email" required>
-                            <textarea name="message" placeholder="Type your message" required></textarea>
-                            <button type="submit">Send</button>
-                        </form>
-                    </div>
-                </div>
+                <ul id="contactul">
+                    <form action="https://formspree.io/mpzyqdng" method="POST">
+                    <li><input class="onelineli" class="allli" type="text" name="name" placeholder="Your name" class="Fill" required=""></li>
+                    <li><input class="onelineli" class="allli" type="hidden" name="_subject" value="Contact request from personal website" /></li>
+                    <li><input class="onelineli" class="allli" type="email" name="_replyto" placeholder="Your email" required></li>
+                    <li><textarea class="twolineli" class="allli" name="message" placeholder="Type your message" required></textarea></li>        
+                    <button id="submit" type="submit">Send</button>
+                    </form>
+                </ul>
         </section>
         <!-- Footer-->
         <footer class="footer text-center">

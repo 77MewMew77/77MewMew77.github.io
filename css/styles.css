@@ -10281,3 +10281,48 @@ form .row:first-child .floating-label-form-group {
   width: 300px;
   height: 300px;
 }
+#contactul{
+    padding: 10px;
+    margin: 0px;
+    list-style-type: none;
+    border: var(--secondary);
+}
+.onelineli{
+  width:1050px;
+  height: 50px;
+  padding: 10px;
+  max-width: 100%;
+  margin-right: 50px;
+  margin-top:30px;
+}
+.twolineli{
+  width: 1050px;
+  height: 60px;
+  padding: 12px;
+  box-sizing: border-box;
+  min-height: 200px;
+  margin-top: 30px;
+}
+#about{
+  background-color:turquoise;
+}
+.allli{
+  padding: 10px;
+}
+input{
+  background-color: teal;
+  color: white;
+}
+::placeholder{
+  color: white;
+}
+textarea{
+  background-color: teal;
+  color: white;
+}
+#submit{
+  background-color: plum;
+  padding: 15px;
+  margin-top: 30px;
+  border-radius: 12px;
+}
