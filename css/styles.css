@@ -10093,6 +10093,7 @@ h3 {
 }
 #mainNav .navbar-brand {
   color: #fff;
+  font-size: 20px;
 }
 #mainNav .navbar-nav {
   margin-top: 1rem;
@@ -10112,6 +10113,7 @@ h3 {
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.8rem;
+  margin-right: 100px;
 }
 
 @media (min-width: 992px) {
@@ -10146,7 +10148,6 @@ h3 {
 }
 .masthead {
   padding-top: calc(6rem + 74px);
-  padding-bottom: 6rem;
 }
 .masthead .masthead-heading {
   font-size: 2.75rem;
@@ -10275,11 +10276,13 @@ form .row:first-child .floating-label-form-group {
 #logo{
   width: 170px;
   height: 170px;
-  padding: 20px;
+  padding: 15px;
+  margin-left: -25px;
 }
 #logo2{
   width: 300px;
   height: 300px;
+  margin-left: 20px;
 }
 #contactul{
     padding: 10px;
@@ -10319,6 +10322,7 @@ input{
 textarea{
   background-color: teal;
   color: white;
+  max-width: 100%;
 }
 #submit{
   background-color: plum;
