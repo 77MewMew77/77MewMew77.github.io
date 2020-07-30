@@ -9772,7 +9772,7 @@ button.bg-dark:focus {
 
 .text-uppercase {
   text-transform: uppercase !important;
-  color: white;
+  color: var(--secondary);
 }
 
 .text-capitalize {
@@ -10092,7 +10092,7 @@ h3 {
   font-weight: 700;
 }
 #mainNav .navbar-brand {
-  color: #fff;
+  color:#fff;
   font-size: 20px;
 }
 #mainNav .navbar-nav {
@@ -10333,5 +10333,9 @@ textarea{
 .socials{
   width: 80px;
   height: 80px;
-  padding: 20px;
+  padding: 15px;
+  margin-left: -15px;
+}
+#socialtext{
+  color: white;
 }
