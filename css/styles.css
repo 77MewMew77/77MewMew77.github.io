@@ -140,6 +140,7 @@ strong {
 
 small {
   font-size: 80%;
+  color: white;
 }
 
 sub,
@@ -392,7 +393,14 @@ h6, .h6 {
 .lead {
   font-size: 1.25rem;
   font-weight: 300;
+  color: white;
 }
+#lead {
+  font-size: 1.25rem;
+  font-weight: 300;
+  color:var(--secondary);
+}
+
 
 .display-1 {
   font-size: 6rem;
@@ -545,6 +553,7 @@ pre code {
   padding-left: 1.5rem;
   margin-right: auto;
   margin-left: auto;
+  color:var(--secondary);
 }
 @media (min-width: 576px) {
   .container {
@@ -6095,7 +6104,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #1abc9c !important;
+    background-color:turquoise;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -6105,7 +6114,7 @@ button.bg-primary:focus {
 }
 
 .bg-secondary {
-  background-color: #2c3e50 !important;
+  background-color:teal !important;
 }
 
 a.bg-secondary:hover, a.bg-secondary:focus,
@@ -9763,6 +9772,7 @@ button.bg-dark:focus {
 
 .text-uppercase {
   text-transform: uppercase !important;
+  color: white;
 }
 
 .text-capitalize {
@@ -9794,7 +9804,7 @@ button.bg-dark:focus {
 }
 
 .text-white {
-  color: #fff !important;
+  color: var(--secondary) !important;
 }
 
 .text-primary {
@@ -10001,6 +10011,7 @@ h3 {
 }
 .page-section {
   padding: 6rem 0;
+  background-color: paleturquoise;
 }
 .page-section .page-section-heading {
   font-size: 2.25rem;
@@ -10019,6 +10030,7 @@ h3 {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: var(--secondary);
 }
 .divider-custom .divider-custom-line {
   width: 100%;
@@ -10039,10 +10051,10 @@ h3 {
   font-size: 2rem;
 }
 .divider-custom.divider-light .divider-custom-line {
-  background-color: #fff;
+  background-color: var(--secondary);
 }
 .divider-custom.divider-light .divider-custom-icon {
-  color: #fff !important;
+  color:var(--secondary)!important;
 }
 
 .btn-xl {
@@ -10253,12 +10265,12 @@ form .row:first-child .floating-label-form-group {
 .footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: #2c3e50;
+  background-color:teal;
   color: #fff;
 }
 
 .copyright {
-  background-color: #1a252f;
+  background-color: rgb(1, 73, 73);
 }
 #logo{
   width: 170px;
